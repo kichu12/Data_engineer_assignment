@@ -4,4 +4,4 @@
 - Data Extraction, transformation and loading done using etl.py(ETL_load.png)
 - Workflow implementation done using airbnb_metaflow.py
 
-  Nb: All the code explanation is added as comments in code itself
+  NB: All the code explanation is added as comments in code itself
