@@ -9,7 +9,7 @@ DB_HOST = 'localhost'
 DB_PORT = '5432'
 DB_NAME = 'airbnb_nyc'
 
-class AirbnbETLMetaflowFlow(FlowSpec):
+class airbnbmetaflow(FlowSpec):
 
     @step
     def start(self):
@@ -64,4 +64,4 @@ class AirbnbETLMetaflowFlow(FlowSpec):
         print("ETL process completed successfully!")
 
 if __name__ == '__main__':
-    AirbnbETLMetaflowFlow()
+    airbnbmetaflow()
