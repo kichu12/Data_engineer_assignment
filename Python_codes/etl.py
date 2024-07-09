@@ -21,6 +21,7 @@ def extract_data():
     return df
 
 def transform_data(df):
+    # Normalize the data
     # Convert 'last_review' to datetime format
     df['last_review'] = pd.to_datetime(df['last_review'], errors='coerce')
     df['review_year'] = df['last_review'].dt.year
